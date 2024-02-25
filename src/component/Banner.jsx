@@ -3,9 +3,9 @@ import { MdNearMe } from "react-icons/md";
 import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 const Banner = () => {
   return (
-    <div className="mx-w-screen-2xl h-[600px] mt-4  mx-auto lg:p-5 p-2">
-      <div className="flex justify-evenly gap-10 flex-col-reverse md:flex-row  items-center">
-        <div className="flex gap-4 md:gap-20 ">
+    <div className="mx-w-screen-2xl min-h-[600px] mt-4  mx-auto lg:p-5 p-2">
+      <div className="flex justify-evenly gap-10 flex-col-reverse md:flex-row  items-center ">
+        <div className="flex gap-4 md:gap-20  ">
             <div className="flex flex-col gap-y-10">
                  <a href="https://www.instagram.com/urrajuahmed_/"><FaInstagram className="text-xl text-sky-500" /></a>
                  <a href="https://www.facebook.com/profile.php?id=100007355355842"><FaFacebook className="text-xl text-sky-500" /></a>
@@ -37,7 +37,7 @@ const Banner = () => {
             <button className="bg-sky-600 mt-5 px-4 py-2 flex items-center justify-center gap-2 rounded text-white">Say Hello <MdNearMe className="text-lg rounded-lg"/></button>
           </div>
         </div>
-        <div className=" md:mt-32 ">
+        <div className=" md:mt-12 ">
           <img className="home_img w-[400px] rounded-tl-3xl border-opacity-20 shadow-2xl border-8 border-sky-500" src="./img/banner.jpg" alt="" />
         </div>
       </div>
