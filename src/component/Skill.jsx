@@ -1,6 +1,7 @@
-import React from 'react';
 import { FaBootstrap, FaCss3, FaGit, FaGithub, FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import { SiTailwindcss } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
+import { SiNextdotjs } from "react-icons/si";
 
 const Skill = () => {
     return (
@@ -79,6 +80,24 @@ const Skill = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className="flex justify-around">
+                        <div className="flex items-start justify-center mb-3 gap-2">
+                            <IoLogoFirebase className="text-xl mt-1 text-sky-500" />
+                            <div className=" font-poppins">
+                                <p className="text-xl text-white">Firebase</p>
+                                <p className="font-light">Intermediate</p>
+                            </div>
+                        </div>
+                        <div className="flex gap-2">
+                            <SiNextdotjs className="text-xl mt-1 text-sky-500" />
+                            <div className=" font-poppins">
+                                <p className="uppercase text-xl text-white">Next js</p>
+                                <p className="font-light">Intermediate</p>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
 
                 

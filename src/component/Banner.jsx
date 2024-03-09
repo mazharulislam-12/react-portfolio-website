@@ -1,15 +1,15 @@
 import { TypeAnimation } from "react-type-animation";
 import { MdNearMe } from "react-icons/md";
-import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Banner = () => {
   return (
     <div className="mx-w-screen-2xl min-h-[600px] mt-4  mx-auto lg:p-5 p-2">
       <div className="flex justify-evenly gap-10 flex-col-reverse md:flex-row  items-center ">
         <div className="flex gap-4 md:gap-20  ">
             <div className="flex flex-col gap-y-10">
-                 <a href="https://www.instagram.com/urrajuahmed_/"><FaInstagram className="text-xl text-sky-500" /></a>
-                 <a href="https://www.facebook.com/profile.php?id=100007355355842"><FaFacebook className="text-xl text-sky-500" /></a>
-                 <a href="https://github.com/urraju"><FaGithub  className="text-xl text-sky-500" /></a>
+                 <a href="https://www.facebook.com/profile.php?id=100031068829811"><FaFacebook className="text-xl text-sky-500" /></a>
+                 <a href="https://www.linkedin.com/in/mazharul-islam-49ab98256/"><FaLinkedin className="text-xl text-sky-500" /></a>
+                 <a href="https://github.com/mazharulislam-12"><FaGithub  className="text-xl text-sky-500" /></a>
             </div>
           <div className="font-poppins">
             <h1 className="text-4xl text-white  mb-3">Hi, I'm Mazharul</h1>
@@ -34,7 +34,6 @@ const Banner = () => {
               I'm creative frontend developer, and I'm <br /> very passionate dedicated
               to my work
             </p>
-            <button className="bg-sky-600 mt-5 px-4 py-2 flex items-center justify-center gap-2 rounded text-white">Say Hello <MdNearMe className="text-lg rounded-lg"/></button>
           </div>
         </div>
         <div className=" md:mt-12 ">
